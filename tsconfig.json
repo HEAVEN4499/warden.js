@@ -6,6 +6,7 @@
     "module": "es6",
     "target": "esnext",
     // "jsx": "react",
+    "experimentalDecorators": true,
     "allowJs": true
   }
 }

@@ -1,3 +1,5 @@
+import { VNode } from '../createElement';
+
 export const options = {
   async: false,
   dirtyComponent: {},
@@ -21,10 +23,6 @@ export function typeCode(data: any) {
   }
 }
 
-type VNode = {
-  type: any,
-  key: any,
-};
 export function isSameVnode(pre: VNode, next: VNode) {
   if (pre.type === next.type && pre.key === next.key) {
     return true;
