@@ -1,0 +1,22 @@
+{
+  "name": "warden.js",
+  "version": "1.0.0",
+  "description": "A demo to learn how MVVM framework work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HEAVEN4499/warden.js.git"
+  },
+  "author": "Licheng WU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HEAVEN4499/warden.js/issues"
+  },
+  "homepage": "https://github.com/HEAVEN4499/warden.js#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
