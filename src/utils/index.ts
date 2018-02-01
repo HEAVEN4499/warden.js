@@ -1,4 +1,4 @@
-import { VNode } from '../createElement';
+import VNode from "../vdom/VNode";
 
 export const options = {
   async: false,
