@@ -10,6 +10,7 @@ class VNode implements VNodeBasic {
   public ref?: any;
   public key?: string;
   public type: VNodeType;
+  public return?: VNode;
   protected props: Object;
   constructor(type: VNodeType, props: Object, key: any, ref: any) {
     this.type = type;

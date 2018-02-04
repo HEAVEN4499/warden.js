@@ -9,7 +9,7 @@ export const options = {
  * Return Code of data's type
  * @param {any} data
  */
-export function typeCode(data: any) {
+export function typeCode(data: any): number {
   switch (true) {
     case data === undefined: return 0;
     case data === null: return 1;
@@ -23,7 +23,7 @@ export function typeCode(data: any) {
   }
 }
 
-export function isSameVnode(pre: VNode, next: VNode) {
+export function isSameVnode(pre: VNode, next: VNode): boolean {
   if (pre.type === next.type && pre.key === next.key) {
     return true;
   }
