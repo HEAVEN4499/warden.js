@@ -1,7 +1,7 @@
 import VNode from '../vdom/VNode';
 import { typeCode } from './index';
 
-export function flattenChildren(children: Array<any> | Symbol | any, parentVNode?: VNode) {
+export function flattenChildren(children: Array<any> | symbol | any, parentVNode?: VNode) {
 
   if (children === undefined) return new VNode('#text', "", null, null);
 
